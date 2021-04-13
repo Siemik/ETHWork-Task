@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="./assets/styles/main.css">
   <link rel="stylesheet" href="./assets/styles/header.css">
   <link rel="stylesheet" href="./assets/styles/hero.css">
+  <link rel="stylesheet" href="./assets/styles/team.css">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/glider.css">
 </head>
 <body>
   <header class="main-header">
@@ -65,9 +67,103 @@
       </div>
     </div>
   </section>
-  <section class="video-modal"></section>
-  <section class="team"></section>
+  <section class="team">
+    <h2 class="team__header">Team</h2>
+    <div class="glider-contain">
+      <div class="glider team__list">
+        <div class="team__member member">
+          <img src="./assets/images/pics/team/Edgar-Morrison.jpg" alt="" class="member__avatar">
+          <h3 class="member__name">Edgar Morrison</h3>
+          <h4 class="member__job-title">CEO</h4>
+          <p class="member__description">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+          <div class="social-container">
+            <button class="member__facebook">
+              <img class="member__facebook-icon" src="./assets/images/icons/Facebook.svg" alt="Frederick Parsons Facebook">
+            </button>
+            <button class="member__linkedin">
+              <img class="member__linkedin-icon" src="./assets/images/icons/LinkedIn.svg" alt="Frederick Parsons LinkedIn">
+            </button>
+          </div>
+        </div>
+        <div class="team__member member">
+          <img src="./assets/images/pics/team/Mae-Martin.jpg" alt="" class="member__avatar">
+          <h3 class="member__name">Mae Martin</h3>
+          <h4 class="member__job-title">CTO</h4>
+          <p class="member__description">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+          <div class="social-container">
+            <button class="member__facebook">
+              <img class="member__facebook-icon" src="./assets/images/icons/Facebook.svg" alt="Frederick Parsons Facebook">
+            </button>
+            <button class="member__linkedin">
+              <img class="member__linkedin-icon" src="./assets/images/icons/LinkedIn.svg" alt="Frederick Parsons LinkedIn">
+            </button>
+          </div>
+        </div>
+        <div class="team__member member">
+          <img src="./assets/images/pics/team/David-Banks.jpg" alt="" class="member__avatar">
+          <h3 class="member__name">David Banks</h3>
+          <h4 class="member__job-title">CFO</h4>
+          <p class="member__description">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+          <div class="social-container">
+            <button class="member__facebook">
+              <img class="member__facebook-icon" src="./assets/images/icons/Facebook.svg" alt="Frederick Parsons Facebook">
+            </button>
+            <button class="member__linkedin">
+              <img class="member__linkedin-icon" src="./assets/images/icons/LinkedIn.svg" alt="Frederick Parsons LinkedIn">
+            </button>
+          </div>
+        </div>
+        <div class="team__member member">
+          <img src="./assets/images/pics/team/Frederick-Parsons.jpg" alt="" class="member__avatar">
+          <h3 class="member__name">Frederick Parsons</h3>
+          <h4 class="member__job-title">COO</h4>
+          <p class="member__description">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner...</p>
+          <div class="social-container">
+            <button class="member__facebook">
+              <img class="member__facebook-icon" src="./assets/images/icons/Facebook.svg" alt="Frederick Parsons Facebook">
+            </button>
+            <button class="member__linkedin">
+              <img class="member__linkedin-icon" src="./assets/images/icons/LinkedIn.svg" alt="Frederick Parsons LinkedIn">
+            </button>
+          </div>
+        </div>
+      </div>
+    
+      <div role="tablist" class="dots"></div>
+    </div>
+  </section>
   <section class="contact-form"></section>
   <footer class="footer"></footer>
+  <script src="./assets/scripts/glider.min.js"></script>
+  <script>
+    new Glider(document.querySelector('.glider'), {
+      slidesToShow: 2.3,
+      slidesToScroll: 'auto',
+      draggable: true,
+      dots: '.dots',
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      },
+      responsive: [
+        {
+          // screens greater than >= 768px
+          breakpoint: 768,
+          settings: {
+            // Set to `auto` and provide item width to adjust to viewport
+            slidesToShow: 2.6,
+            slidesToScroll: 'auto'
+          }
+        },{
+          // screens greater than >= 1024px
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
 </body>
 </html>
