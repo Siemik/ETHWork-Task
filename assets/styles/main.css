@@ -32,3 +32,8 @@ body {
     background-position-y: -40vh;
   }
 }
+@media (min-width: 1685px) {
+  .bg {
+    background-position-y: -50vh;
+  }
+}
