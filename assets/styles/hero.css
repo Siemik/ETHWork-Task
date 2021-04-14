@@ -84,6 +84,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 .video-modal__thumbnail {
   max-width: 338px;
@@ -161,6 +162,9 @@
   .btn-down {
     position: absolute;
     bottom: 15%;
+  }
+  .video-modal {
+    padding-top: 0;
   }
   .video-modal__thumbnail {
     max-width: none;
