@@ -12,3 +12,23 @@ body {
 *::after {
   box-sizing: border-box;
 }
+
+.bg {
+  background-image: url("../images/shapes/bg.svg"),
+    linear-gradient(0deg, rgba(37, 49, 148, 0) 54%, rgba(37, 49, 148, 1) 55%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -35vh;
+  background-position-x: 45%;
+}
+
+@media (min-width: 1248px) {
+  .bg {
+    background-position-y: -15vh;
+  }
+}
+@media (min-width: 1445px) {
+  .bg {
+    background-position-y: -40vh;
+  }
+}
