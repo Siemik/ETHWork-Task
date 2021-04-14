@@ -146,4 +146,7 @@
   .glider-contain {
     max-width: 1170px;
   }
+  .glider.draggable {
+    cursor: default;
+  }
 }
