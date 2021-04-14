@@ -5,6 +5,7 @@
   text-transform: uppercase;
   letter-spacing: 12px;
   font-size: 16px;
+  margin: 30px 0;
 }
 .team__list {
   /* overflow: hidden; */
