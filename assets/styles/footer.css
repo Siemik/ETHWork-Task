@@ -1,0 +1,113 @@
+/** @format */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-company {
+  background: linear-gradient(
+    180deg,
+    #fafbff 0%,
+    #eff1f9 41.68%,
+    #e9ecf6 49.59%,
+    #ced3e8 93.91%
+  );
+  max-height: 247px;
+}
+.footer-company-wrapper {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1170px;
+}
+.footer-company__logo {
+  margin: 30px 0 0 16px;
+  width: 55px;
+}
+.footer-company__p {
+  color: #263396;
+}
+.footer-company__email {
+  font-size: 20px;
+  color: #0f81ff;
+}
+.footer-company__button {
+  max-width: 220px;
+  margin: 37px auto;
+
+  background-color: #38a5db;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  /* height: 46px; */
+  border-radius: 50px;
+  border: none;
+  padding: 12px 40px;
+  font-size: 17px;
+  white-space: nowrap;
+}
+.footer-website__ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  color: #45515f;
+  /* display: flexbox; */
+  max-width: 811px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.footer-website__li {
+  width: 49%;
+  margin: 16px 0;
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .footer {
+    background: linear-gradient(
+      180deg,
+      #fafbff 0%,
+      #eff1f9 41.68%,
+      #e9ecf6 49.59%,
+      #ced3e8 93.91%
+    );
+    height: 225px;
+    max-height: 225px;
+  }
+  .footer-company {
+    background: none;
+  }
+  .footer-company-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .footer-text-wrapper {
+    padding-left: 120px;
+  }
+  .footer-company__button {
+    margin: 36px 0;
+  }
+  .footer-company__logo {
+    width: 96px;
+    margin: 0;
+  }
+  .footer-company__p {
+    padding-top: 10px;
+  }
+  .footer-website__ul {
+    font-size: 18px;
+  }
+  .footer-website__li {
+    width: 24%;
+    line-height: 22px;
+    border-left: 2px solid #9ca4c7;
+  }
+  .footer-website {
+    padding-bottom: 25px;
+  }
+  .copy {
+    border: none;
+  }
+}
