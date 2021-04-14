@@ -29,11 +29,16 @@ body {
 }
 @media (min-width: 1445px) {
   .bg {
-    background-position-y: -40vh;
+    background-position-y: -25vh;
+  }
+}
+@media (min-width: 1578px) {
+  .bg {
+    background-position-y: -30vh;
   }
 }
 @media (min-width: 1685px) {
   .bg {
-    background-position-y: -50vh;
+    background-position-y: -48vh;
   }
 }
