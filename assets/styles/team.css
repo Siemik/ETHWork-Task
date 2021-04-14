@@ -57,3 +57,8 @@
 .member__linkedin {
   padding: 5px 12px 1px 12px;
 }
+@media (min-width: 1024px) {
+  .team {
+    padding-bottom: 90px;
+  }
+}
