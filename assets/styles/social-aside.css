@@ -24,6 +24,9 @@
   border-radius: 50%;
   background-color: #63c7ff;
 }
+.social-asaid__li:hover {
+  background-color: #0092db;
+}
 .social-asaid__li::after {
   content: "";
   position: absolute;

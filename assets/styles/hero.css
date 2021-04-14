@@ -60,6 +60,9 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
+.subscribe__submit:hover {
+  background-color: #0092db;
+}
 .btn-down {
   background: none;
   display: flex;
