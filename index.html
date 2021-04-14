@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./assets/styles/header.css">
   <link rel="stylesheet" href="./assets/styles/hero.css">
   <link rel="stylesheet" href="./assets/styles/team.css">
+  <link rel="stylesheet" href="./assets/styles/contact.css">
   <link rel="stylesheet" type="text/css" href="./assets/styles/glider.css">
 </head>
 <body>
@@ -31,7 +32,7 @@
               <a href="/index.html#team" class="nav__link">Team</a>
             </li>
             <li class="nav__item">
-              <a href="/index.html#contact-form" class="nav__link">Contact</a>
+              <a href="/index.html#contact" class="nav__link">Contact</a>
             </li>
           </ul>
         </nav>
@@ -132,7 +133,24 @@
       <div role="tablist" class="dots"></div>
     </div>
   </section>
-  <section class="contact-form"></section>
+  <section class="contact">
+    <h2 class="contact__header">Contact Us</h2>
+    <p class="contact__sub-header">Most calendars are designed for teams.<br>
+      Slate is designed for freelancers</p>
+    <div class="form-wraper">
+      <form action="" method="get" class="contact__form">
+        <input class="contact__input" value="Your Name" type="text" name="name" id="name" required>
+        <input class="contact__input" value="Your Email" type="email" name="email" id="email" required>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="checkbox" />
+          <label class="contact__checkbox-label" for="checkbox"></label>
+          <p class="contact__checkbox-label-p">Checkbox</p>
+        </div>
+        <input class="contact__submit" type="submit" value="Send">
+      </form>
+    </div>
+    <form action=""></form>
+  </section>
   <footer class="footer"></footer>
   <script src="./assets/scripts/glider.min.js"></script>
   <script>
