@@ -10,6 +10,7 @@
   display: flex;
   margin: 0 auto;
   position: relative;
+  height: 100vh;
 }
 
 .hero-slogan__heading {
@@ -156,7 +157,7 @@
   }
   .btn-down {
     position: absolute;
-    bottom: -40%;
+    bottom: 15%;
   }
   .video-modal__thumbnail {
     max-width: none;
@@ -191,6 +192,7 @@
   .btn-down {
     width: 60px;
     height: 60px;
+    bottom: 20%;
   }
   .btn-down__svg {
     width: 50px;
