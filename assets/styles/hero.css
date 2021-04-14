@@ -22,6 +22,7 @@
   letter-spacing: 0.2px;
   text-align: left;
   padding: 20px;
+  max-width: 334px;
 }
 .subscribe__form {
   display: flex;
